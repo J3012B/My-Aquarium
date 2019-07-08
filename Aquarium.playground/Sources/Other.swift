@@ -8,7 +8,7 @@ public func hexStringToUIColor (hex:String) -> UIColor {
         cString.remove(at: cString.startIndex)
     }
     
-    if ((cString.characters.count) != 6) {
+    if ((cString.count) != 6) {
         return UIColor.gray
     }
     

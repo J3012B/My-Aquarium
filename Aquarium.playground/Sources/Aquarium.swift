@@ -6,22 +6,6 @@ import AVFoundation
 
 public class Aquarium: SKScene {
     
-    /*public var waterAmount = 100 {
-        didSet {
-            let maxHeight: CGFloat = 400.0
-            var newHeight = CGFloat(waterAmount)
-            
-            if waterAmount > 100 {
-                newHeight = CGFloat(100)
-            } else if waterAmount < 0 {
-                newHeight = CGFloat(0)
-            }
-            newHeight = maxHeight * newHeight * CGFloat(0.01)
-            
-            water.yScale = newHeight / water.frame.height
-            water.position.y = ground.frame.maxY + water.frame.height * 0.5 - 40.0
-        }
-    }*/
     public var showNames: Bool = false {
         didSet {
             for fish in fishes {

@@ -20,7 +20,7 @@ var fishes = ["Goldie" : 1]
 
 // For Example:
 
- //fishes = ["Steve" : 1, "Tim" : 2, "Craig" : 3, "Jony" : 4, "Eddy" : 5, "Philip" : 6]
+  fishes = ["Steve" : 1, "Tim" : 2, "Craig" : 3, "Jony" : 4, "Eddy" : 5, "Philip" : 6]
 
 
 
@@ -30,7 +30,7 @@ let aquarium = Aquarium(fishes: fishes)
  Huh, how can they be seperated?
  Just change this value to 'true'!
 */
-aquarium.showNames = false
+aquarium.showNames = true
 /*:
  ### I am Poseidon, ...
  Have you already tried to interact with the objects? This sculpture for example looks a bit creepy.
